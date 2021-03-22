@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "ctest",
+      "setup": "",
+      "run": "ctest --build-and-test . build --build-generator \"Unix Makefiles\" --test-command ctest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
