@@ -1,3 +1,4 @@
+[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=4403657&assignment_repo_type=AssignmentRepo)
 Ваша задача реализовать методы `insert` и `remove` в файле `tree/tree.cpp`. Дерево в данной задаче реализует множество, то есть хранит только "ключи", а не пары ключ-значение.
 
 Метод `tree::insert` добавляет в множество (дерево) новое число и возвращает вершину, в котором это число лежит. Если число уже есть в дереве, ничего добавлять не нужно, а вернуть нужно указатель на имеющуюся вершину.
