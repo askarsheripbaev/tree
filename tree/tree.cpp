@@ -1,8 +1,5 @@
 #include "tree.hpp"
 
-auto tree::insert(int val) -> tree_node * {
-    // Код для добавления элемента в дерево
-    return nullptr;
 tree_node* tree::insert(const std::unique_ptr<tree_node> &up, std::unique_ptr<tree_node> &node, int value) {
 	if (!node) {
 		node = std::make_unique<tree_node>();
@@ -27,9 +24,6 @@ bool tree::remove(std::unique_ptr<tree_node> &node, int value) {
             return true;
         }
 
-auto tree::remove(int val) -> bool {
-    // Код для удаления элемента из дерева
-    return false;
         tree_node *parent = node->right.get(); 
         tree_node *tmp = node->right.get(); 
 
